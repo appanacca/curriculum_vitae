@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg12"
+   version="1.1"
+   height="37.5"
+   width="37.48711"
+   viewBox="-10 -10 29.989688 30">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#363636;}.cls-2{fill:#f26f23;}</style>
+  </defs>
+  <g
+     transform="translate(-6.2814993,-6.1116949)"
+     data-name="Calque 2"
+     id="Calque_2">
+    <g
+       transform="translate(-3.7288136,-3.8983051)"
+       data-name="Calque 1"
+       id="Calque_1-2">
+      <path
+         style="fill:#363636"
+         id="path6"
+         d="M 15,24.34 A 9.34,9.34 0 1 1 20.11,7.19 l 3.37,-4.56 a 15,15 0 1 0 0,24.76 L 20.19,22.78 A 9.28,9.28 0 0 1 15,24.34 Z"
+         class="cls-1" />
+      <path
+         style="fill:#f26f23"
+         id="path8"
+         d="M 30,15 A 15,15 0 0 0 23.48,2.63 l -3.37,4.56 a 9.33,9.33 0 0 1 0.05,15.59 l 3.29,4.61 A 15,15 0 0 0 30,15 Z"
+         class="cls-2" />
+    </g>
+  </g>
+</svg>

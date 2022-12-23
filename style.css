@@ -1,0 +1,245 @@
+
+/* 
+############################################################################################
+
+Inspiration comes from here !!!!
+
+https://celikk.me/blog/effectiveCV/
+
+############################################################################################
+
+*/
+
+
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+
+html {
+    width: 21cm;
+    height: 29.7cm;
+    border: 2px solid black;
+    position: relative;
+}
+
+body {
+    margin: 0mm;
+    font-size: 14px;
+}
+
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -200;
+}
+
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -200;
+
+}
+
+
+
+/*  HEADER */
+
+
+
+header {
+    display: flex;
+    height:  4cm;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 0.05rem solid black;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.surname {
+    font-weight: 900;
+    font-size: 30px;
+    padding: 0 0 0 10px;
+    margin: 10px 0 0 0;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 0 0 10px;
+    margin: 10px 0 0 0;
+
+}
+
+.job-search {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    margin: 10px 0 0 0;
+
+
+}
+
+.linkedin {
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 10px 0 0 0;
+
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.about, .contacts {
+    padding: 0 20px 0 10px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contacts i {
+    font-size: 16px;
+    padding: 0 20px 10px 0;
+}
+
+
+
+
+/*  MAIN PAGE */
+
+main {
+    width: 15cm;
+    height: 100%;
+    position: relative;
+    /* border: 0.1rem dotted red; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.05rem solid black;
+}
+
+.experience, .education {
+    margin-left: 1rem;
+}
+
+.experience h2 , .education h2{
+    margin: 10px 0 10px 0;
+}
+
+.point {
+    position: absolute;
+    left: -6px; /* this is the half of the font-size of the circle */
+    transform: translateY(+9px); /* this is the half of the job-imh size minus half the font-size of the circle */
+    margin: 0;
+    font-size: 12px;
+}
+
+.point i {
+    color: rgb(189, 189, 189);
+}
+
+.job-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.job-title h2 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.job-title h3 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.job-img {
+    height: 30px;
+}
+
+.job {
+    border-bottom: 0.1rem dotted black;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.last {
+    border-bottom: none;
+}
+
+
+
+/* NAV LATERAL*/
+
+nav img {
+    border-radius: 50%;
+    width: 3.6cm;
+    flex: 1 1 3cm;
+    padding-top: 20px;
+}
+
+
+
+nav {
+    margin: 0;
+    width: 5.9cm;
+    /* border: 0.1rem dotted blue; */
+    position: absolute;
+    left: 0;
+    text-align: right;
+    padding-right: 20px;
+    background:  #ff6c22a9;
+    height: 100%;
+    padding-left: 20px;
+
+}
+
+.language ul, .awards ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.language li, .awards li {
+    margin: 0 0 4px 0;
+}
+
+.language, .skills {
+    border-bottom: 0.05rem solid black;
+}
+
+.awards ul li a{
+    color: black;
+}
+
